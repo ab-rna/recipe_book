@@ -1,0 +1,90 @@
+/* pallete 
+
+CB997E - reddish brown
+DDBEA9 - beige
+FFE8D6 - peachy cream
+B7B7A4 - light sage green
+A5A58D - sage green
+6B705C - dark sage green */
+
+
+/* GLOBAL STYLES */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: black;
+  margin: 0;
+  padding: 10s;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #DDBEA9;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+	color: #DDBEA9;
+}
+h1 {
+font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+.lefta {
+	text-align: left;
+}
+/*   INTRO   */
+
+.intro {
+	text-align: center;
+	background: #A5A58D
+}
+	
+
+/* INGREDIENTS  */
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+  position: relative;
+  bottom: 1px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+
+
+/*  RECIPE  */
+
+.recipe {
+	float: right;
+}
+
+
+
